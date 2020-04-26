@@ -40,9 +40,10 @@ INSTALLED_APPS = [
     # DEPENDENCIES
     'rest_framework',
     'rest_framework.authtoken',
-    # APSS
+    # APPS
     'core',
-    'user'
+    'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
